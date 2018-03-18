@@ -19,10 +19,12 @@ import { AppState } from './app.service';
     <main>
       <router-outlet></router-outlet>
     </main>
+
+    <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
+
   `
 })
 
-// NAV MENU
 // <nav>
 // <a [routerLink]=" ['./'] "
 //   routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
@@ -49,17 +51,7 @@ import { AppState } from './app.service';
 //   DevModule
 // </a>
 // </nav>
-// FOOTER
-// <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
 
-//     <footer>
-//       <span>Angular Starter by <a [href]="twitter">@gdi2290</a></span>
-//       <div>
-//         <a [href]="url">
-//           <img [src]="tipe" width="25%">
-//         </a>
-//       </div>
-//     </footer>
 export class AppComponent implements OnInit {
   public name = 'Angular Starter';
   public tipe = 'assets/img/tipe.png';
@@ -69,7 +61,7 @@ export class AppComponent implements OnInit {
 
   constructor(
     public appState: AppState
-  ) { }
+  ) {}
 
   public ngOnInit() {
     console.log('Initial App State', this.appState.state);

@@ -22,7 +22,6 @@ import { AppState } from './app.service';
   `
 })
 
-// NAV MENU
 // <nav>
 // <a [routerLink]=" ['./'] "
 //   routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
@@ -49,7 +48,7 @@ import { AppState } from './app.service';
 //   DevModule
 // </a>
 // </nav>
-// FOOTER
+
 // <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
 
 //     <footer>
@@ -69,7 +68,7 @@ export class AppComponent implements OnInit {
 
   constructor(
     public appState: AppState
-  ) { }
+  ) {}
 
   public ngOnInit() {
     console.log('Initial App State', this.appState.state);
