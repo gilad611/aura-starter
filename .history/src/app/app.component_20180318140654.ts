@@ -61,7 +61,7 @@ import { AppState } from './app.service';
 //       </div>
 //     </footer>
 export class AppComponent implements OnInit {
-  public name = 'Aura Smart Air';
+  public name = 'Angular Starter';
   public tipe = 'assets/img/tipe.png';
   public twitter = 'https://twitter.com';
   public url = 'https://www.aura-smart-air.com';

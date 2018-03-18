@@ -1,7 +1,7 @@
 {
   "name": "aura-smart-air",
   "version": "7.5.0",
-  "description": "",
+  "description": "An Angular Webpack Starter kit featuring Angular (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by Tipe.io",
   "keywords": [
     "angular",
     "angular2",
@@ -12,8 +12,8 @@
     "tipe",
     "tipe.io"
   ],
-  "author": "Gilad Kalina <gilad611@gmail.com>",
-  "homepage": "https://github.com/gilad611/aura-starter",
+  "author": "Patrick Stapleton <patrick@tipe.io>",
+  "homepage": "https://github.com/gdi2290/angular-starter",
   "license": "MIT",
   "scripts": {
     "build:aot:prod": "npm run clean:dist && npm run clean:aot && cross-env BUILD_AOT=1 npm run webpack -- --config config/webpack.prod.js  --progress --profile --bail",
@@ -169,10 +169,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gilad611/aura-starter.git"
+    "url": "https://github.com/gdi2290/angular-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/gilad611/aura-starter/issues"
+    "url": "https://github.com/gdi2290/angular-starter/issues"
   },
   "engines": {
     "node": ">= 8.0.0",

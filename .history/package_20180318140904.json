@@ -169,10 +169,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gilad611/aura-starter.git"
+    "url": "https://github.com/gilad611/angular-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/gilad611/aura-starter/issues"
+    "url": "https://github.com/gilad611/angular-starter/issues"
   },
   "engines": {
     "node": ">= 8.0.0",
